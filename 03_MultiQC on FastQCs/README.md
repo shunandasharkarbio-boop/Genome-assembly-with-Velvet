@@ -3,7 +3,7 @@ MultiQC generates a webpage combining reports for FastQC on both datasets. It in
 ---------------------------------------
 General statistics
 
-We need to know about the data for our analysis. In particular, we need to know the read lengths as it is important in setting the maximum k-mer size for an assembly.
+I need to know about the data for my analysis. In particular, I need to know the read lengths as it is important in setting the maximum k-mer size for an assembly.
 
 ----------------------------------------
 Sequence Quality Histograms
