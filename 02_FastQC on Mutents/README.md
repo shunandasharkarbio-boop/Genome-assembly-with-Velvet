@@ -1,1 +1,1 @@
-
+I will evaluate the input reads using the FastQC tool. This tool runs a standard series of tests on your read set and returns a relatively easy-to-interpret report. I will use it to evaluate the quality of our FASTQ files and combine the results with MultiQC
