@@ -1,13 +1,11 @@
-The HTML report reports many statistics computed by QUAST to assess the quality of the assembly:
+## 📈 Assembly Quality Assessment (QUAST)
 
-Statistics about the quality of the assembly when compared to the reference (fraction of the genome, duplication ratio, etc)
-Misassembly statistics, including the number of misassemblies
+The assembled genome was evaluated using **QUAST (Quality Assessment Tool for Genome Assemblies)**. QUAST compares the assembled contigs against the reference genome and generates an interactive HTML report containing detailed assembly quality metrics.
 
-A misassembly is a position in the contigs (breakpoints) that satisfy one of the following criteria:
+The report includes:
 
-the left flanking sequence aligns over 1 kbp away from the right flanking sequence on the reference;
-flanking sequences overlap on more than 1 kbp
-flanking sequences align to different strands or different chromosomes
-Unaligned regions in the assembly
-Mismatches compared to the reference genomes
-Statistics about the assembly per se, such as the number of contigs and the length of the largest contig
+- **Assembly Accuracy** – Measures how well the assembly matches the reference genome, including genome fraction covered and duplication ratio.
+- **Misassembly Analysis** – Identifies structural errors where contigs are incorrectly assembled, such as incorrect joins, inversions, or misplaced regions.
+- **Unaligned Regions** – Reports contig regions that do not align to the reference genome.
+- **Sequence Errors** – Summarizes mismatches and small insertions/deletions (indels) relative to the reference.
+- **Assembly Statistics** – Provides key metrics such as the total number of contigs, largest contig size, total assembly length, N50, and other indicators used to evaluate assembly quality.
