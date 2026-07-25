@@ -1,1 +1,3 @@
-I will evaluate the input reads using the FastQC tool. This tool runs a standard series of tests on your read set and returns a relatively easy-to-interpret report. I will use it to evaluate the quality of our FASTQ files and combine the results with MultiQC
+## 🔍 Quality Assessment
+
+The input sequencing reads were assessed using **FastQC** to evaluate their quality before genome assembly. The FastQC reports were then summarized with **MultiQC** for an overall quality assessment of both FASTQ files.
