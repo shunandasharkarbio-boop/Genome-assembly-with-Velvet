@@ -1,6 +1,8 @@
-I have a set of reads from an imaginary Staphylococcus aureus bacterium with a miniature genome (197,394 bp). Our mutant strain read set was sequenced with the whole genome shotgun method, using an Illumina DNA sequencing instrument. From these reads, I would like to rebuild our imaginary Staphylococcus aureus bacterium via a de novo assembly of a short read set using the Velvet assembler.
-Import from Zenodo or from the data library the files:
+## 📂 Dataset
 
-https://zenodo.org/record/582600/files/mutant_R1.fastq
-https://zenodo.org/record/582600/files/mutant_R2.fastq
-https://zenodo.org/record/582600/files/wildtype.fna
+This project uses sequencing data from an **imaginary *Staphylococcus aureus* mutant strain** (~197 kb genome). The paired-end Illumina whole-genome shotgun (WGS) reads are assembled **de novo** using Velvet. A reference genome is included for assembly evaluation.
+
+**Files**
+- `mutant_R1.fastq` – Forward paired-end reads
+- `mutant_R2.fastq` – Reverse paired-end reads
+- `wildtype.fna` – Reference genome
