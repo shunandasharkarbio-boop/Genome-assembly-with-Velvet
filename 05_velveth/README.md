@@ -1,4 +1,5 @@
-Assemble reads with Velvet
-Now, I want to assemble our reads to find the sequence of my imaginary Staphylococcus aureus bacterium. I will perform a de novo assembly of the reads into long contiguous sequences using the Velvet short read assembler.
+## 🧩 Genome Assembly with Velvet
 
-The first step of the assembler is to build a de Bruijn graph. For that, it will break our reads into k-mers, i.e. fragments of length k. Velvet requires the user to input a value of k (k-mer size) for the assembly process. Small k-mers will give greater connectivity, but large k-mers will give better specificity.
+The sequencing reads were assembled using **Velvet**, a de novo short-read assembler that reconstructs the genome without using a reference sequence. Velvet builds a **de Bruijn graph** by breaking the sequencing reads into smaller fragments called **k-mers**.
+
+Choosing an appropriate **k-mer size** is a critical step in the assembly process. Smaller k-mers improve graph connectivity and help assemble low-coverage regions, while larger k-mers increase assembly specificity and reduce ambiguous connections. An optimal k-mer value provides a balance between connectivity and assembly accuracy, resulting in high-quality contigs.
