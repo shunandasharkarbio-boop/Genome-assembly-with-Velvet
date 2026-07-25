@@ -1,14 +1,14 @@
-The Contigs file
+## 📄 Assembly Outputs
 
-This file contains the sequences of the contigs. In the header of each contig, a bit of information is added:
+The Velvet assembly generates two primary output files:
 
-the k-mer length (called “length”): For the value of k chosen in the assembly, a measure of how many k-mers overlap (by 1 bp each overlap) to give this length
-the k-mer coverage (called “coverage”): For the value of k chosen in the assembly, a measure of how many k-mers overlap each base position (in the assembly).
+### 🧬 Contigs File
 
+The **Contigs** file contains the assembled DNA sequences (contigs). Each contig header includes useful assembly information, such as:
 
---------------------------------------------------------------------------------
-The Stats file
+- **Length** – The contig length, determined by the overlap of k-mers during assembly.
+- **Coverage** – The average k-mer coverage across the contig, indicating the sequencing depth and confidence of the assembled sequence.
 
-This is a tabular file giving for each contig the k-mer lengths, k-mer coverages and other measures. 
+### 📊 Stats File
 
-
+The **Stats** file provides a tabular summary of each assembled contig. It includes important assembly metrics such as **contig length**, **k-mer coverage**, and other statistical measures that help evaluate the overall quality of the genome assembly.
